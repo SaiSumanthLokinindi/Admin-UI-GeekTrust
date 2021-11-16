@@ -139,7 +139,7 @@ const Member = (props) => {
 
   return (
     <>
-      <tr key={memberId}>
+      <tr key={memberId} className={`${isSelected ? classes.selected : ""}`}>
         <td>
           <input
             ref={selectMember}
