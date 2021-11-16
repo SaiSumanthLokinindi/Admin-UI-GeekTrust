@@ -68,7 +68,7 @@ const Table = () => {
 
   useEffect(() => {
     searchMember(search);
-  }, [membersData, searchMember]);
+  }, [membersData, searchMember, search]);
 
   const checkPageMembersSelected = useCallback(() => {
     dispatcher({ type: "togglePageActive" });
