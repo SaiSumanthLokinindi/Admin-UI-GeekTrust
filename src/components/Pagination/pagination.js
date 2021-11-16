@@ -1,5 +1,5 @@
 import classes from "./pagination.module.css";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
   FaAngleDoubleLeft,
   FaAngleDoubleRight,
@@ -96,4 +96,4 @@ const Pagination = (props) => {
   );
 };
 
-export default Pagination;
+export default React.memo(Pagination);

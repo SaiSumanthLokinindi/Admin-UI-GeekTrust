@@ -1,5 +1,5 @@
 import classes from "./search.module.css";
-import { useRef } from "react";
+import React, { useRef } from "react";
 const Search = (props) => {
   const { searchMember } = props;
   const searchKeyword = useRef();
@@ -25,4 +25,4 @@ const Search = (props) => {
   );
 };
 
-export default Search;
+export default React.memo(Search);
