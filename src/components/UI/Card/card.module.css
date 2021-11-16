@@ -1,0 +1,6 @@
+.card-div {
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.158);
+  border-radius: 8px;
+}

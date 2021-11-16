@@ -1,0 +1,22 @@
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icon {
+  padding: 0 0.4rem;
+  font-size: 1.2rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon.edit:hover {
+  color: #0066ff;
+}
+
+.icon.delete:hover {
+  color: red;
+}

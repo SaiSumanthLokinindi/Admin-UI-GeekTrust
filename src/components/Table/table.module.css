@@ -1,0 +1,54 @@
+.table {
+  width: 100%;
+  border: none;
+}
+
+table,
+th,
+td {
+  border-bottom: 1px solid rgba(180, 180, 180, 0.2);
+}
+
+th {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 0.7rem 0.5rem;
+}
+td {
+  padding: 0.8rem 0.5rem;
+}
+tbody tr {
+  transition: all 0.2s linear;
+}
+tbody tr:hover {
+  background-color: rgba(189, 189, 189, 0.151);
+  border-radius: 4px;
+}
+.pagination-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.selected-members-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.empty-data-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.empty-data-div img {
+  height: 7rem;
+  width: 7rem;
+  opacity: 0.5;
+}

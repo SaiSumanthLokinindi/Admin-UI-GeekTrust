@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: "Inter", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.hint-text {
+  font-size: 0.8rem;
+  color: gray;
+}
+.error-text {
+  font-size: 0.8rem;
+  color: red;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input[type="text"],
+input[type="email"] {
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  border-radius: 4px;
+  height: 2rem;
+  padding: 0 0.5rem;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover input[type="text"]:focus,
+input[type="email"]:hover {
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: 2.5px solid #0066ff;
+  background-color: #ebf8ff2c;
+}
+
+input[type="text"].error,
+input[type="email"].error {
+  outline: 2.5px solid red;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  outline: none;
+  border: none;
+  background-color: #0066ff;
+  color: white;
+  height: 2rem;
+  padding: 0 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.15);
+  transition: all linear 0.2s;
+}
+button:disabled {
+  font-family: "Inter", sans-serif;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.178);
+  background-color: rgb(243, 243, 243);
+  height: 2rem;
+  padding: 0 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: gray;
+  box-shadow: none;
+}
+
+button:hover:enabled {
+  background-color: #297eff;
+  cursor: pointer;
+}
+
+button:active:enabled {
+  background-color: #0d63e4;
+}
